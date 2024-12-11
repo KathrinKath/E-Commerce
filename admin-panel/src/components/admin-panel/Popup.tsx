@@ -54,6 +54,31 @@ const Popup = ({ setOpenPopup, setUpdateTable }: PropsType) => {
             }
             required
           />
+          <input
+            className="border block border-gray-500 outline-none px-4 py-2 rounded-lg w-fit"
+            type="text"
+            placeholder="Category"
+            value={inputData.category}
+            onChange={(e) =>
+              setInputData({ ...inputData, category: e.target.value })
+            }
+            required
+          />
+          <input
+            className="border block border-gray-500 outline-none px-4 py-2 rounded-lg w-fit"
+            type="text"
+            placeholder="Price"
+            value={inputData.price}
+            onChange={(e) =>
+              setInputData({ ...inputData, price: e.target.value })
+            }
+            required
+          />
+          <div className="flex justify-end">
+            <button className="bg-accent block text-white px-8 py-2 rounded-lg self-center">
+              Save
+            </button>
+          </div>
         </form>
       </div>
     </div>
