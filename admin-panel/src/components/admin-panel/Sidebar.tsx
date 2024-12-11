@@ -44,9 +44,13 @@ const Sidebar = () => {
   const pathName = usePathname();
 
   return (
-    <div className="bg-white w-[300px] in-h-screen p-4 shrink-0">
+    <div className="bg-white w-[300px] min-h-screen p-4 shrink-0">
       <div className="flex items-center gap-4">
-        <img className="size-12 rounded-1g" src="logo.jpg" alt="logo" />
+        <img
+          className="size-12 rounded-1g"
+          src="@/public/4t2_O840QHKTX1Z7vxR_YQ.webp"
+          alt="logo"
+        />
         <h2 className="text-[20px] font-semibold">Orbix</h2>
       </div>
       <ul className="space-y-4 mt-6">
@@ -55,8 +59,8 @@ const Sidebar = () => {
             key={menu.title}
             href={menu.href}
             className={`flex gap-2 items-center p-4 rounded-lg cursor-pointer hover:bg-pink hover:text-white ${
-              pathName === menu
-            } href ? "bg-pink text-white" : "bg-gray-200"}`}
+              pathName === menu.href ? "bg-pink text-white" : "bg-gray-200"
+            }`}
           >
             <div className="text-[20px]">{menu.icon}</div>
             <p>{menu.title}</p>
