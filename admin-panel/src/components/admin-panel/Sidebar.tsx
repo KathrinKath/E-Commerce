@@ -48,7 +48,7 @@ const Sidebar = () => {
       <div className="flex items-center gap-4">
         <img
           className="size-12 rounded-1g"
-          src="@/public/4t2_O840QHKTX1Z7vxR_YQ.webp"
+          src="/public/Uz5afW_OTAeTzDNe3i_IHw.webp"
           alt="logo"
         />
         <h2 className="text-[20px] font-semibold">Orbix</h2>
