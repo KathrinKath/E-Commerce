@@ -1,4 +1,4 @@
-import { ActionCreatorsMapObject } from './../../../node_modules/redux/src/types/actions';
+import { IProduct } from '@/app/admin/dashboard/page';
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
 
 const initialState: IProduct = {
