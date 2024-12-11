@@ -4,8 +4,7 @@ import { useAppDispatch } from "@/redux/hooks";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ProductRow from "@/components/admin-panel/ProductRow";
-// import Popup from "@/admin-panel/node_modules/axobject-query/lib/etc/objects";
-
+import Popup from "@/components/admin-panel/Popup";
 export interface IProduct {
   _id: string;
   imgSrc: string;
