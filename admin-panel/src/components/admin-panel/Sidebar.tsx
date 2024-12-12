@@ -52,9 +52,9 @@ const Sidebar = () => {
           src="/Cobra.webp"
           alt="logo"
           width={48}
-          height={48} 
+          height={48}
         />
-        <h2 className="text-[20px] font-semibold">The Cobras</h2>
+        <h2 className="text-[30px] font-bold font-serif">The Cobras</h2>
       </div>
       <ul className="space-y-4 mt-6">
         {menus.map((menu) => (
