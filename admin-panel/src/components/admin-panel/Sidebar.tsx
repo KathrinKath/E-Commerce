@@ -5,6 +5,7 @@ import { IoAnalytics, IoSettings } from "react-icons/io5";
 import { RiShoppingCartLine } from "react-icons/ri";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 // import { Sidebar } from "@/components/admin-panel/Sidebar";
 
 const menus = [
@@ -46,12 +47,14 @@ const Sidebar = () => {
   return (
     <div className="bg-white w-[300px] min-h-screen p-4 shrink-0">
       <div className="flex items-center gap-4">
-        <img
+        <Image
           className="size-12 rounded-1g"
-          src="/public/Uz5afW_OTAeTzDNe3i_IHw.webp"
+          src="/Cobra.webp"
           alt="logo"
+          width={48}
+          height={48} 
         />
-        <h2 className="text-[20px] font-semibold">Orbix</h2>
+        <h2 className="text-[20px] font-semibold">The Cobras</h2>
       </div>
       <ul className="space-y-4 mt-6">
         {menus.map((menu) => (
