@@ -104,7 +104,7 @@ const ProductForm = () => {
           required
         />
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-center">
         <button className="bg-pink text-white px-8 py-2 rounded-md">Add</button>
       </div>
     </form>

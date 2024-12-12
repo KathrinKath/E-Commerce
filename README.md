@@ -1,16 +1,20 @@
 # E-Commerce - Computers and Cellular - The Cobras
+
 #Technology Used:
-* Next.js
-* Tailwind CSS
-* React.js
-* TypeScript
-* Uploadthing
-* MongoDB
-* Mongo Atlas
-* Redux
-* React Toolkits
+
+- Next.js
+- Tailwind CSS
+- React.js
+- TypeScript
+- Uploadthing
+- MongoDB
+- Mongo Atlas
+- Redux
+- React Toolkits
+- Google Cloud Console
 
 # Admin Panel:
+
 1. Show-Products - Serial Number, Name, Price, Picture, Actions
 2. Edit and Delete Items
 3. Add Products - Image, Name, Type, Price
@@ -24,6 +28,7 @@
 11. Settings - open for ideas
 
 # User Panel
+
 1. Log In or Sign Up with Google or Email
 2. Show Categories - Side Menu
 3. Show products - picture, type, price, info
@@ -33,9 +38,11 @@
    number, expected delivery.
 7. Notification status to the email address of the customer if he chose the option
 
-
 # Extensions Installed for this Project:
+
 ## admin-panel@0.1.0/E-Commerce/admin-panel
+
+```
 ├── @reduxjs/toolkit@2.5.0
 ├── @types/node@20.17.10
 ├── @types/react-dom@19.0.2
@@ -57,19 +64,21 @@
 ├── tailwindcss@3.4.16
 ├── typescript@5.7.2
 └── uploadthing@7.4.0
+```
 
 ## admin-panel@0.1.0/E-Commerce/user-panel
 
-* NOT DONE YET 
+- NOT DONE YET
 
 ### Forced Installation:
-* Used command extension: --legacy-peer-deps  because of different React versions
+
+- Used command extension: --legacy-peer-deps because of different React versions
 
 ## Websites Used:
+
 1. https://www.laptoparena.net/
 2. https://www.gsmarena.com/
 3. https://ksp.co.il/web/
-
-
+4. https://www.craiyon.com/ (AI Image Generator)
 
 ### Created by Gerardo Mussuto and Kathrin Peled

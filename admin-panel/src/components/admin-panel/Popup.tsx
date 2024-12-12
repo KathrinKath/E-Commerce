@@ -74,8 +74,8 @@ const Popup = ({ setOpenPopup, setUpdateTable }: PropsType) => {
             }
             required
           />
-          <div className="flex justify-end">
-            <button className="bg-accent block text-white px-8 py-2 rounded-lg self-center">
+          <div className="flex justify-centet justify-center">
+            <button className="bg-accent block text-white px-8 py-2 rounded-lg ">
               Save
             </button>
           </div>
